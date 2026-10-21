@@ -1,0 +1,15 @@
+{"ep": {
+  "title": "为什么你总是很容易尴尬",
+  "brand": "",
+  "tint": "#16213a",
+  "cover": {"l1": "为什么你", "l2": "总是很容易", "l3": "尴尬？", "sub": "越怕被否定，越容易尴尬"},
+  "lines": [
+    {"t": "一件小事，你能{g:尴尬}一整晚。", "s": 2.8, "k": "a", "scene": {"type": "solo", "a": {"w": "me", "mood": "sad", "fx": "loop", "say": "回放中…"}, "prop": "bed"}},
+    {"t": "说错一句话，脑子反复{g:回放}。", "s": 3.0, "k": "a"},
+    {"t": "别人早忘了，只有你还记着。", "s": 3.2, "k": "b", "scene": {"type": "crowd", "a": {"w": "me", "mood": "tired", "fx": "question"}, "n": 6, "crowdMood": "calm"}},
+    {"t": "原因①：你太在意{g:别人的评价}。", "s": 3.4, "k": "c", "tag": "原因①", "scene": {"type": "crowd", "a": {"w": "me", "mood": "sad", "fx": "sweat"}, "n": 6, "eyes": true, "crowdMood": "angry"}},
+    {"t": "有研究发现，越怕被{r:否定}的人越容易尴尬。", "s": 3.2, "k": "d", "tag": "原因①", "scene": {"type": "heart", "crack": true, "a": "me", "b": "friend"}},
+    {"t": "尴尬，其实是在保护你的{g:自尊}。", "s": 2.8, "k": "e", "scene": {"type": "solo", "a": {"w": "me", "mood": "calm", "fx": "shine"}, "prop": "spot"}},
+    {"t": "你是：{r:1} 当场尴尬，还是 {g:2} 回家才尴尬？", "s": 3.4, "k": "f", "scene": {"type": "choice", "a": {"label": "当场尴尬", "who": ["me", "friend"]}, "b": {"label": "回家才尴尬", "who": ["me"]}}}
+  ]
+}}

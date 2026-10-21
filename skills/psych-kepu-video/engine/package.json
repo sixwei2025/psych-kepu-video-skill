@@ -1,0 +1,24 @@
+{
+  "name": "psych-kepu-video-engine",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "心理科普 15–30 秒 16:9 静音短视频 Remotion 引擎：换一份脚本 JSON 即可渲染",
+  "engines": {"node": ">=18"},
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "render:example": "bash ../scripts/render.sh ../examples/embarrassment.json out/example"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.507",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.507"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
